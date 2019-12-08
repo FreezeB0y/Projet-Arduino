@@ -1,6 +1,6 @@
-# Projet-Arduino
-projet arduino 19/20
+# PeiP2-Projet-Arduino
+# Exact Bowling
 
-Vouillon
+Projet Arduino 2019/20
 
-Lecoeur
+Eva Vouillon Louis Lecoeur
