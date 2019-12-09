@@ -3,4 +3,4 @@
 
 Projet Arduino 2019/20
 
-Arnaud Cayla Louis Lecoeur
+Arnaud Cayla / Louis Lecoeur
