@@ -1,1 +1,31 @@
+But de la première séance :
 
+Mise en commun avec Arnaud, car il vient juste de découvrir qu'il tavaillait avec moi.
+Essayer de compléter ma partie prévu pour aujourd'hui.
+
+
+Déroulement de la séance :
+
+J'ai dû expliquer à Arnaud le projet que nous avions choisi avec Eva.
+J'ai ajouté Arnaud à mon projet github.
+
+J'ai commencé à développer le code pour la position de la rampe, c'est à dire son mouvement horizontal.
+Pour se faire il faut pouvoir récupérer les informations par Bluetooth envoyées par le téléphone.
+Je vais utiliser un moteur pas à pas.
+Puis les traiter, en effet la rampe se déplace grâce à une crémaillère, il faut prendre en compte : 
+	la circonférence de la roue dentée connectée à la crémaillère;
+	la longueur de la crémaillère;
+	le nombre de pas du moteur;
+	la vitesse de translation(optionnel).
+
+J'ai réussi à faire fonctionner le moteur pas à pas malgré que le premier moteur m'a donné du mal puisque celui ci était cassé.
+
+Cependant, je me suis rendu compte qu'il y avait un problème que nous n'avions pas envisagé : 
+Comment la bille qui remonte arrive à atteindre le haut de la rampe si celle ci se déplace ?
+
+Nous avons vu avec Arnaud comment résoudre ce problème mais, il faudra y revenir car pas encore résolu.
+
+J'ai vu comment comptabiliser les points et replacer les quilles après le lancé de la bille.
+En effet, lorsque la quille sera posée à sa place, elle fermera un circuit permettant d'affirmer que la quille est toujours debout.
+
+Réécriture de l'emploi du temps avec Arnaud, pour avoir un emploi du temps de départ.
