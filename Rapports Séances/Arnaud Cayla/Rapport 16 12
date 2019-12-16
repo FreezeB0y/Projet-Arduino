@@ -1,5 +1,13 @@
 J'ai re fait le dessin au propre en y rajoutant quelques informations en plus (photo)
 De plus Louis m'a expliquer comment fonctionneront les quilles ainsi le fonctionnement du comptage en fonction du cablage (voir photo)
   [La quille sera posée sur deux cables et possèdera un socle conducteur. Le but est que lorsque la quille soit posée horizontalement sur
-  les fils, le courant passe et il n'y a pas de changement sur le score pour comptage des points. Et lorsque que la quille tombe, les compteur
-  s'incrémente en fonction du nombre de quille tombées] [cf schéma dans Rapports Séances/Ressources]
+  les fils, le courant passe et il n'y a pas de changement sur le score pour comptage des points. Et lorsque que la quille tombe, le
+  compteur s'incrémente en fonction du nombre de quille tombées] [cf schéma dans "Rapports Séances/Ressources"]
+
+Ensuite j'ai commencé a afficher le fonction comptage sur un écran LCD en utilisant les programmes vu en cours
+
+J'ai rencontrer quelques problemes qui m'ont pris beaucoup de temps a résoudre (ex: enlever "lcd.clear();" parce que j'affichais rien au
+par avant) qui n'est pas un probleme difficile mais qui n'étais pas logique pour moi, donc le professeur m'a aidé a resoudre ca dernier
+
+Ensuite j'ai commencé un programme qui affiche un texte qui avance le long de l'écran LCD (pour l'instant mon programme affiche un texte
+qui defile de droite a gauche et qui change de ligne)
