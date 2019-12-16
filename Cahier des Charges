@@ -1,0 +1,66 @@
+Cahier des charges projet : « Exact Bowling »
+
+1.	Cahier des charges du projets
+
+1)	Présentation du projet
+Réaliser un projet utilisant une carte Arduino, prenant en compte une communication Radio Fréquence.
+
+2)	Temps
+Finir le projet et sa présentation pour le 9 mars 2019.
+Deux présentations une mi-janvier et la dernière le 9 mars 2019.
+
+
+2.	Cahier des charges du produit
+
+Pour correspondre à ces critères voici comment nous allons traiter le sujet :
+1)	Présentation du projet
+« Exact Bowling » est un projet Arduino qui est réalisé par Louis Lecoeur et Arnaud Cayla,
+dans le cadre du cours Arduino en deuxième année de cycle préparatoire à l’école Polytechnique
+de l’Université de Nice Sophia Antipolis(PeiP2 PNS). Ce projet consiste à reproduire un jeu de 
+bowling avec de nouvelles fonctionnalités permettant d’effectuer des lancés  précis pour réussir des Strikes!
+
+2)	Etudes/explications des besoins
+« Exact Bowling » est un jeu qui a pour but de faciliter la pratique du bowling. 
+Public visé :
+	joueurs expert comme débutant
+	tout âge
+	Pascal Masson et les membres du jury.
+Nous souhaitons donner la possibilité de choisir l’angle mais aussi la position du lancer.
+Le design ergonomique avec la rampe de lancement transparente et la piste en bois, facilitent la vision d’ensemble du jeu.
+
+Le projet permet aux joueurs une nouvelle expérience, qui rassemblera expérimentés mais aussi de nouveaux joueurs attirés
+par le fait de pouvoir définir eux-mêmes les paramètres de lancer. De plus, le projet nous est agréable à réaliser
+et nous permettra d’être évalués dans la matière Arduino.
+
+3)	Liste du matériel 
+- Bois, pour la structure (50cm x 20cm x 10 cm), et pour les autres pièces (quilles, réservoir,…)
+- Plexiglas, pour la rampe
+- une bille
+- une carte mega (dont vous nous avez parlé)
+- un module HC-06 (car nous voulons seulement échanger entre la carte et le téléphone par Bluetooth)
+- fils, pour les servomoteurs
+- bande de téflon, pour réaliser la crémaillère
+- 11 moteurs pas à pas, soit ceux dont vous nous avez parlés, soit ceux du site : https://www.amazon.fr/TOOGOO-Bipolaire-Corps-Fil-Connecteur-Imprimante/dp/B07TJN7WVL/ref=sr_1_7?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=moteur+pas+a+pas+bipolaire&qid=1575127243&s=hi&sr=1-7  (qui serviront à replacer les quilles et compter les points ainsi que régler l’angle de la rampe)
+- (optionnel) cire d’abeille, pour vernir la piste https://www.amazon.fr/Oulensy-dabeille-cosm%C3%A9tiques-Entretien-Prot%C3%A9gez/dp/B07SMR1R5V/ref=sr_1_13?keywords=cire+dabeille+meuble&qid=1575064113&s=kitchen&sr=1-13
+- colle https://www.amazon.fr/Loctite-Colle-forte-Super-Glue/dp/B008F7YFS8/ref=sr_1_6?keywords=colle+tout+mat%C3%A9riaux&qid=1575198664&sr=8-6
+- un servomoteur, pour remonter la bille, "en escalier" https://fr.aliexpress.com/item/32270923152.html?spm=a2g0o.productlist.0.0.4f762f7caVBX4w&s=p&algo_pvid=d02de799-94f4-4262-a7b4-aa293d4114d3&algo_expid=d02de799-94f4-4262-a7b4-aa293d4114d3-3&btsid=e629b5e0-0560-4547-8e1f-1f45d7f88eb0&ws_ab_test=searchweb0_0,searchweb201602_1,searchweb201603_55
+- une tige en métal
+- du plexiglas/bois, pour faire des disques de différents diamètres
+- un servomoteur, pour faire déplacer à droite ou à gauche la rampe https://fr.aliexpress.com/item/32814481531.html?spm=a2g0o.detail.1000060.2.6c1b6c6cK60EDv&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.146401.0&scm_id=1007.13339.146401.0&scm-url=1007.13339.146401.0&pvid=34d33510-f23b-4753-a3f6-bd1122868731
+
+4)	Analyse fonctionnelle
+Le joueur par le biais de son  téléphone indiquera comment il souhaite jouer. 
+Il sélectionnera la position et l’angle de lancer puis pourra voir la bille monter jusqu’à la rampe,
+et rouler jusqu’aux quilles, et enfin il verra afficher son score sur l’écran (Strike ou le nombre de quilles touchées).
+
+5)	Fonctionnalités à développer
+En ce qui concerne la partie codage : elle est composées de trois parties.
+- Pour la première, il s’agit de notre code principal qui gère la rampe, (angle et position) 
+et qui prend en compte ce que le joueur aura sélectionné sur son téléphone à l’aide de l’application Bluetooth Share.
+- Pour la deuxième, il s’agit du système pour compter les points et les afficher sur un écran en bout de piste,
+plus précisément si toutes les quilles tombent il affiche Strike, sinon il affiche le nombre de quilles qui sont tombées.
+A chaque nouveau lancé l’affichage est remis à zéro. 
+- Pour la troisième, il s’agit de la programmation du déplacement de la boule de bowling (qui se trouve initialement dans le réservoir),
+elle devra être remontée jusqu’en haut de la rampe de lancement.
+
+ 
