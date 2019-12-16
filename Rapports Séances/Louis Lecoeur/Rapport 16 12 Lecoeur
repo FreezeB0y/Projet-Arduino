@@ -2,3 +2,17 @@ Séance 16/12
 Louis Lecoeur
 
 But de la séance :
+
+  Développer le code pour pouvoir modifier l'angle de la rampe.
+  Tenter de s'avancer sur le code pour fermer/ouvrir le clapet.
+  
+Déroulement de la séance :
+
+  Nous avons commencé à revoir avec Arnaud le problème de la dernière fois (Comment la bille qui remonte arrive à 
+atteindre le haut de la rampe si celle ci se déplace ?), nous nous sommes mis d'accord sur une solution : une cloison
+amovible qui suit la translation horizontal de la rampe. Cette cloison sera légèrement courbée et posée sur une
+rigole/rampe placée sur toute la largeur su socle, juste au dessus de la rampe (de lancement)(voir Ressources/schéma
+projet). Attention on ne sait pas si c'est réalisable ou réaliste comme solution, il faudra hélas attendre le moment
+où l'on ira au fablab(voir tableau de Gant)!
+
+  
