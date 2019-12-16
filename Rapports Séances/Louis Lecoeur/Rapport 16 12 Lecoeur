@@ -24,5 +24,12 @@ problème de court circuit avec le câbles des 5 V de la carte Arduino nano.
 
   Après avoir résolu mon problème de carte et de montage du projet, j'ai pu enfin commencé à me renseigner sur les servo moteurs.
 En effet, je vais utiliser un servo moteur pour modifier l'angle de la rampe de lancement, pour pouvoir modifier, la direction
-du lancer de la bille.
-  
+du lancer de la bille. J'ai dû utilisé la bibliothèque Servo qui est de base dans la bibliothèque d'Arduino.
+Mon programme est écrit en fonction de :
+    la position que l'on veut de départ
+    la position de comment on veut arriver
+    de la vitesse du déplacement
+Nous allons devoir revoir notre emploi du temps pour avancer la préparation matérielle du projet. Nous allons donc essayer d'être
+prêt pour aller au prochain cours au fablab préparé la structures et les éléments.
+
+Je n'ai pas pu être autant productif que j'aurais voulu, mais les vacances arrivent...
