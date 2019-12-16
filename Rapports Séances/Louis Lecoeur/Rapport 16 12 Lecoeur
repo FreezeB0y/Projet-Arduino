@@ -15,4 +15,14 @@ rigole/rampe placée sur toute la largeur su socle, juste au dessus de la rampe 
 projet). Attention on ne sait pas si c'est réalisable ou réaliste comme solution, il faudra hélas attendre le moment
 où l'on ira au fablab(voir tableau de Gant)!
 
+  J'ai eu un problème conséquent durant la séance qui m'a pris une grande partie de celle-ci pour réussir à trouver un
+moyen de le résoudre. Ma carte Arduino a toujours fonctionnée correctement, cependant en début de séance celle-ci n'était
+plus repérée par mon ordinateur et donc je ne pouvais plus téléverser mon programme dans la carte, ni communiqué avec. 
+Quand enfin j'ai réussi à la faire repérée l'ordinateur (gestionnaire de périphériques), le programme arduino ne me proposait
+aucun port de téléversement, et donc le problème n'atait toujours pas résolu. Au final il se trouve que c'était juste un
+problème de court circuit avec le câbles des 5 V de la carte Arduino nano.
+
+  Après avoir résolu mon problème de carte et de montage du projet, j'ai pu enfin commencé à me renseigner sur les servo moteurs.
+En effet, je vais utiliser un servo moteur pour modifier l'angle de la rampe de lancement, pour pouvoir modifier, la direction
+du lancer de la bille.
   
