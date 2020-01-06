@@ -1,0 +1,32 @@
+Séance 06/01
+Louis Lecoeur
+
+But de la séance :
+	
+  Mise en commun du travail effectué durant les vacances.(voir ressources)
+  Développer le code pour pouvoir fermer/ouvrir le clapet.
+  
+Déroulement de la séance :
+
+  Nous avons commencé à revoir avec Arnaud le problème de la cloison amovible sur la rampe de départ.
+La solution serait de relié le mur amovible à une barre verticale en haut de la rampe amovible et à une rampe
+horizontal qui suit la rampe fixe. La cloison amovible suivra correctement la rampe amovible. Il ne reste plus
+qu'à le réaliser la semaine prochaine au fablab.
+
+  Sur la maquette en 3D il n'y a pas les escaliers pour faire remonter le bille et les textures ne sont pas encore mises.
+
+  J'ai attaqué le développement du code du clapet. Je vais utiliser un servo moteur qui aura deux positions possibles :
+l'une fermera l'accès à la pente de la bille, l'autre sera à 180° et permettra de laisser passer la bille.
+  Durant son développement j'ai eu un problème sur la "lecture" du booléen permettant la mémoire de l'état du clapet. 
+En effet, l'ordinateur gardé en mémoire (alors qu'il ne devait pas le faire) le premier nombre reçu et ne changeait plus.
+En remplaçant par le type interger (à la place de boolean) l'ordinateur ne reconnaissait pas le chiffre réellement reçu.
+Finalement j'ai utilisé le type char et j'ai mis les conditions en fonction de caractère (ie if(val == '1'){...}). 
+
+  J'ai recherché des plans 3D de quilles pour l'imprimante 3D cependant je n'en trouve pas à la dimension voulue.
+
+  A la prochaine séance nous allons au FabLab (de 14h à 16h30) aux Templiers après notre passage à l'oral mi-Janvier. Nous aurons besoin de
+bois, de PVC, de colle/vis.
+
+Conclusion de la chance :
+
+  Je suis satisfait du travail effectué. J'ai réussi à faire tout ce que je devais faire.
