@@ -1,0 +1,39 @@
+Séance 03/02
+Louis Lecoeur
+
+But de la séance :
+	
+  Mettre en 3D toutes les pièces de notre projet
+  Faire la partie écran de l'affichage des points
+  Relier les deux parties de l'affichage
+  
+Déroulement de la séance :
+
+  J'ai sélectionné un type de quilles de bowling (qui se trouve dans le répertoire
+Rapports Séances/Ressources/Dual_Extrusion_Bowling_Pin.zip ), cependant les dimensions ne sont pas à la bonne grandeur,
+je ne sais pas s'il est possible de les réduire lors de l'impression, nous devons le faire via Autodesk Inventor.
+
+  J'ai repris le programme du TD fait en cours sur l'écran lcd. Cependant certaines fois, après un fonctionnement prolongé
+de l'écran celui-ci arrête d'afficher mon texte, mais affiche une succession de caractère tel que des points d'interrogations,
+ou des chiffres... Il suffit juste de relancer le programme, mais cela peut être embêtant puisque le but recherché de cet 
+affichage est de faire similairement ou de rappeler les écrans dans les bowlings tailles réelles.
+
+  Lorsque j'ai relié les deux parties du programme. Un problème est survenu dans mon programme il y avait une quille en plus
+que dans mon circuit électronique. De plus j'ai eu un problème dans la comptabilisation des points. En effet mon programme
+ne reconnaissait pas les quilles encore debout. Suite à une réflexion sur ce problème j'ai trouvé qu'il fallait tout simplement
+passer les fils sur False pour représenter le fait que le circuit soit ouvert, ie avec les quilles tombées.
+
+  J'ai donc après fait "une mise en page" (présentation) plus adéquate du retour des points sur l'écran LCD. J'ai rajouté la 
+possibilité d'entrer le pseudonyme du joueur, qui s'affichera à l'écran. Ainsi, l'écran ressemble à ça :
+
+				==================        ==================
+				|Points :  Strike|   ou   |Points :      02|
+				|Pseudonyme      |  bien  |Pseudonyme      |
+				==================        ==================
+
+Conclusion de la séance :
+
+  Nous sommes retardés dans nos plans à cause du manque de nos pièces pour assembler notre projet. Nous avons déjà réservé 
+le fablab pour une prochaine fois. Dans les prochaines séances nous devrons assembler les mécanismes avec les pièces, 
+coder toute la partie bluetooth, voir comment utiliser plusieurs cartes arduino pour notre projet et seulement si nous en
+avons le temps essayer d'améliorer l'esthétisme de notre projet.
