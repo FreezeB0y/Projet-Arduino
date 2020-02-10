@@ -1,0 +1,28 @@
+   Le 10/02/2020
+   
+   But de la séance:
+   
+   Aujourd'hui nous devons programmer le moteur pas a pas ainsi que le module bluetooth associé.
+   Nous devons aussi refaire la boite avec les modifications conseillées par le professeur du FabLab.
+   
+   Déroulement de la séance:
+   
+   J'ai du re-modeliser la boite parce que le professeur de FabLab nous a donné des idées afin de simplifier la construction. 
+   Cependant nous ne pouvons pas utiliser le modelisateur de boite sur internet car les contraintes de notre boite ne peuvent pas etre
+   détaillées dans ce site web. Du coup nous avons perdu beaucoup de temps a modéliser la boite a plusieurs reprises mais la boite est
+   maintenant fini.
+   (cf Projet-Arduino/Rapports Séances/Ressources/Photo boite 2.0.pdf 
+       Projet-Arduino/Rapports Séances/Ressources/Photo boite 2.0 autre.pdf).
+   J'ai du ensuite convertir les fichiers Invenor en fomrat ".dxf" afin de pouvoir les découper a la découpeuse lazer au FabLab.
+   
+   De plus j'ai recupérer le module bluetooth et le moteur pas a pas afin de les ajouter au projet.
+   J'ai programmer le moteur pas a pas afin de vérifier si il marchait et de lui faire faire des tours sur lui meme.
+   
+   
+   Conclusion de la séance:
+   
+   Nous allons enfin pouvoir travailler sur la maquette afin de faire des tests avec les moteurs pas a pas pour voir si le moteur sera
+   assez puissant pout faire pivoter la pente.
+  
+   
+   
