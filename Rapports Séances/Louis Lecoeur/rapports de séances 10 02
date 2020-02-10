@@ -1,0 +1,34 @@
+Séance 10/02
+Louis Lecoeur
+
+But de la séance :
+	
+  Coder la partie Bluetooth
+  Relier plusieurs cartes Arduino
+  
+Déroulement de la séance :
+
+  Nous sommes aller la semaine dernière au FabLab. Nous avons commandé l'impression des quilles à la taille voulu, grâce à
+l'imprimante 3D. De plus nous avons pu constater que nos plans de notre maquette peut bien s'emboiter entre elle. Cependant,
+nous n'avons pu que découper 3 pièces dans du carton, en effet il n'y a plus assez de carton pour tout découper. Nous voulons
+avoir une première découpe entièrement en carton pour préinstaller tout le circuit électronique d'Arduino sur notre projet,
+et donc pouvoir le faire proprement avec les trous déjà placer sur du bois du FabLab. Le professeur nous a donc conseillé 
+certaines façon d'améliorer nos pièces/plans. Arnaud doit normalement retoucher les plans sur Inventor.
+
+  Lorsque j'ai codé le programme de Bluetooth, j'ai eu du mal à communiquer avec ma carte Bluetooth via ma carte Arduino.
+Après plusieurs essais et recherches sur le web, j'ai finalement résolu le problème en débranchant tout puis en rebranchant...
+
+  J'ai fait des recherches sur Internet pour pouvoir relier en Serial deux cartes Arduino. Cependant la connection Tx Rx des
+deux cartes semblent ne pas être bien interprété par Arduino. J'ai essayé de chercher un correctif pour ce problème. Sans
+résultat. Je vais donc procéder différemment : connecter deux cartes Arduino à l'écran lcd. En effet une carte s'occupera de
+tout l'aspect fonctionnalité, alors que l'autre s'occupera du décompte des points et juste de l'envoi de ceux ci à l'écran.
+Bien entendu je vais devoir connecter le GND des Arduino entre elles pour ne pas avoir des problèmes dans mon circuit.
+Cette solution en cours de montage ne me parait pas très réaliste...
+Grâce à Internet j'ai trouvé une solution qui nécessite un module supplémentaire (le PCF8574T IC). Pour l'instant nous allons
+essayer de finir notre projet juste avec un nombre réduit de quilles.
+
+Conclusion de la séance :
+
+  Il ne nous reste plus que 2 séances. Nous ne sommes pas en voie de terminer notre projet. Toutes la partie automatisme de la bille
+est absente. Nous sommes le plus avancé sur la fin du bowling. C'est à dire, le comptage de points et la récupération de la bille
+dans la rigole après le lancer.
