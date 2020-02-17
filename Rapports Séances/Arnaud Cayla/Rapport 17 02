@@ -1,0 +1,27 @@
+Le 17/02/2020
+
+But de la séance:
+
+Aujourd'hui nous devons faire le module bluetooth ainsi que finir les finisitions de la maquette que ja vais modéliser cet après-midi.
+
+Déroulement de la séance:
+ 
+J'ai modifié quelques pieces comme la longueur a laquelle j'ai ajouté un trou afin de pouvoir faire sortir la bille après le
+lancé (cf Projet-Arduino/Rapports Séances/Ressources/Photo longueur trou.pdf). Et je vais la faire a la découpeuse lazer.
+ 
+De plus j'ai rajouté une nouvelle piece, une rigole afin de récuperer les billes après le lancé et de ne pas les faire tomber par terre
+(cf Projet-Arduino/Rapports Séances/Ressources/Rigole bille.pdf). Je vais la créer à la decoupeuse lazer en assemblant les 3 pieces qui
+la compose (cf  Projet-Arduino/Rapports Séances/Ressources/Pieces rigole.pdf).
+
+J'ai donc modéliser un ensemble pour vérifier si la création de la pièce est possible 
+(cf  Projet-Arduino/Rapports Séances/Ressources/Ensemble boite.pdf).
+
+Et j'avais déjà modéliser la pente qui permettait de faire descendre la bille afin qu'elle fasse tomber les quilles, cependant je
+m'étais tromper dans les dimensions, elles éteient bonnes mais 10 fois trop petites, je les avait modélisé en milimètre au lieu de 
+centimètre (cf Projet-Arduino/Rapports Séances/Ressources/Pente.pdf). Je vais la modéliser à l'aide de l'imprimante 3D si les dimensions
+sont assez petites, si ce n'est pas le cas je devrais la faire a la découpeuse lazer et puis la finir a la main.
+
+Conclusion de la séance:
+
+Je suis content d'avoir enfin pu finir, enfin je pense, toutes les pieces à modéliser. Nous avons fait le plus gros du travail 
+il ne nous reste plus qu'a assembler tout ca et a finir les programmes
