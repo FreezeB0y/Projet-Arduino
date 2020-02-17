@@ -1,0 +1,23 @@
+Séance 17/02
+Louis Lecoeur
+
+But de la séance :
+	
+  Relier les différents modules de codes et électroniques
+  
+  
+Déroulement de la séance :
+
+  Lorsque j'ai relié le système du moteur pas à pas et le Bluetooth, j'ai eu un problème. En effet, le moteur lorsqu'il fonctionnait
+éteignait la carte Bluetooth faute de courant. Lorsque j'ai branché la carte Arduino à la prise électrique, le moteur pas à pas a 
+arrêté de fonctionner, mais la carte Bluetooth fonctionnait toujours. Je ne sais pas d'où provient ce problème. J'ai essayé de 
+re-séparer les systèmes et brancher le moteur séparément sur la prise électrique et il refuse de fonctionner de nouveau...
+  Je n'ai pas compris comment avoir plus de sorties/entrées avec la carte arduino uno que vous nous avez donné.
+  J'ai réussi à trouver l'erreur : il y avait une sortie connecté dans le mauvais ordre...
+Cependant la carte BlueTooth fait des erreurs de frappes (ex:	568
+                                               								56
+				                                              				560
+					                                              			4
+					                                              			544
+						                                               		4)
+on peut voir ici qu'il y a des erreurs de valeurs (des sauts). (ici ce n'est pas le pwm qui est afficher mais bien le nombre de pas).
